@@ -1,4 +1,4 @@
-﻿class HaloGeneric
+class HaloGeneric
 
 
 {
@@ -6,6 +6,7 @@
     {
         Console.WriteLine("Halo user " + x);
     }
+}
     
 
 ﻿class DataGeneric<T>{
@@ -32,5 +33,4 @@
             DataGeneric<String> dataGeneric = new DataGeneric<String>("1302210057");
             dataGeneric.printData();
         }
-    }
 }
